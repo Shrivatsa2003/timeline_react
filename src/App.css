@@ -1,0 +1,36 @@
+body{
+    background: #3da3c5;
+    font-family: monospace;
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+}
+.dotted-box {
+    border: 2px dashed #ccc;
+    border-radius: 40px;
+    padding: 10px;
+  }
+.title{
+    font-size: 5em;
+    text-align: center;
+    font-family: "Bebas Neue",sans-serif;
+}
+h3{
+    padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content{
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em!important;
+}
+.date{
+    color: rgb(201,251,255);
+}
+
+@media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: rgb(44, 44, 44);
+      margin-top: 1.5em;
+}
+}

@@ -1,0 +1,16 @@
+ // <div>
+    //   <h1>timeline</h1>
+    //   <VerticalTimeline>
+    //     {
+    //     timelineElements.map((element) => (
+    //       <VerticalTimelineElement
+    //         key={element.id}
+    //         date={element.date}
+    //         dateClassName="date"
+    //         iconStyle={dotIconStyle}
+    //       >
+            
+    //       </VerticalTimelineElement>
+    //     ))}
+    //   </VerticalTimeline>
+    // </div>
