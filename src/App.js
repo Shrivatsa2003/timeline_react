@@ -19,6 +19,7 @@ function App() {
             date={element.description}
             dateClassName="date"
             iconStyle={dotIconStyle} 
+            
           >
             <h3 className='vertical-timeline-element-title'>{element.title}</h3>
           </VerticalTimelineElement>
